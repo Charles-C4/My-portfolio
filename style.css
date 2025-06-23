@@ -1,0 +1,121 @@
+ body {
+        margin: 0;
+        font-family: "Inter", sans-serif;
+        background-color: #0f172a;
+        color: #f8fafc;
+        line-height: 1.6;
+      }
+
+      .about-image img {
+        display: block;
+        margin: 2% 30%;
+        width: 250px;
+        height: auto;
+        border-radius: 40%;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        margin-right: 40px;
+      }
+      header,
+      section,
+      footer {
+        padding: 60px 20px;
+        max-width: 1000px;
+        margin: auto;
+      }
+      footer a:hover{
+        color: #ff6600;
+      }
+      h1,
+      h2,
+      h3 {
+        color: #d4af37;
+      }
+      .btn {
+        background: #38bdf8;
+        color: #0f172a;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+      }
+      #hero {
+        text-align: center;
+        padding-top: 100px;
+      }
+      .skills-grid {
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        gap: 15px;
+        padding: 0;
+      }
+      .skills-grid li {
+        background: #1e293b;
+        padding: 10px;
+        text-align: center;
+        border-radius: 5px;
+      }
+      .project {
+        background: #1e293b;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+      }
+      form input,
+      form textarea {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+      }
+      form button {
+        background: #38bdf8;
+        color: #0f172a;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+      }
+      footer {
+        text-align: center;
+        background: #1e293b;
+        padding: 30px 20px;
+        font-size: 0.9rem;
+      }
+      .social-icons a {
+        color: #38bdf8;
+        margin: 0 10px;
+        text-decoration: none;
+      }
+      #projects a {
+        color: #0077cc; /* your preferred link color */
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s ease, text-decoration 0.3s ease;
+      }
+
+      #projects a:hover {
+        color: #005fa3; /* darker shade on hover */
+        text-decoration: underline;
+      }
+      #projects a:active {
+        color: #ff6600;
+        transform: scale(0.98);
+      }
+
+      #projects a {
+        color: #0077cc; /* your preferred link color */
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s ease, text-decoration 0.3s ease;
+      }
+
+      #about a:hover {
+        color: #005fa3; /* darker shade on hover */
+        text-decoration: underline;
+      }
+      #about a:active {
+        color: #ff6600;
+        transform: scale(0.98);
+      }
